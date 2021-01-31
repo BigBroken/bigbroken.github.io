@@ -3,7 +3,7 @@ const execa = require("execa");
 const fs = require("fs");
 (async () => {
   try {
-    await execa("rimraf" ["node_modules/gh-pages/.cache"]);
+    await execa("rimraf", ["node_modules/gh-pages/.cache"]);
     await execa("git", ["checkout","--orphan","gh-pages"]);
     // eslint-disable-next-line no-console
     console.log("Building started...");

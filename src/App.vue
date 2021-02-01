@@ -5,7 +5,7 @@
       </div>
       <HelloWorld msg="Ruthie Halberstadt" subMsg="'Scientist'"/>
       <Btn href="https://www.google.com">CV</Btn>
-      <Btn>Google Scholar</Btn>
+      <Btn href="https://scholar.google.com/citations?user=xt9Rj30AAAAJ&hl">Google Scholar</Btn>
       </div>
       <Bio>
       </Bio>

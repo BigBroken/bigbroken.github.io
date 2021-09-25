@@ -1,6 +1,39 @@
 
 @charset "UTF-8";
 
+.image-caption{
+  width:90%;
+  font-style:italic;
+  margin-left:5%;
+}
+.research p.image-caption{
+  font-size:20px;
+}
+.image-container{
+  border-radius: 10px;
+  background-color:#c9e5f6;
+
+}
+.image-row{
+ padding-top:30px;
+ padding-bottom:30px;
+}
+.image-column{
+
+}
+.resaerch ol{
+  font-size:22px;
+}
+.research p {
+  font-size: 22px;
+}
+.section-top{
+  padding-top:170px!important;
+}
+.research.page-section {
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
 .top-section{
    height:650px;
    text-align: center;
@@ -40,16 +73,16 @@
  .spacer{
    height:40px;
  }
- h3 {
+ .main-page h3 {
    margin: 40px 0 0;
  }
- h1{
+ .main-page h1{
    padding-top:65px;
    color:white;
    font-size:4.0em;
    margin-bottom:0px;
  }
- h2{
+ .main-page h2{
    color:white;
    font-size:2em;
    margin-top:0px;

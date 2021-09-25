@@ -1,0 +1,58 @@
+
+@charset "UTF-8";
+
+.top-section{
+   height:650px;
+   text-align: center;
+   color: #fff;
+   background-image: url('../assets/tealCover.jpg');
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center center;
+   background-size: cover;
+}
+.button-2 {
+   display: inline-block;
+   margin: 5px;
+   padding: 1em 2em;
+   background: #fff;
+   border: 2px solid tomato;
+   border-radius: 3px;
+   color: tomato;
+   font-family: "Quicksand", sans-serif;
+   font-size: 1em;
+   font-weight: 700;
+   letter-spacing: 0.02em;
+   line-height: 1;
+   text-decoration: none;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: 0.3s;
+ }
+ .portfolio{
+    background-color: #c9e5f6;
+ }
+
+ .button-2:hover {
+   background: tomato;
+   color: #fff;
+ }
+ .spacer{
+   height:40px;
+ }
+ h3 {
+   margin: 40px 0 0;
+ }
+ h1{
+   padding-top:65px;
+   color:white;
+   font-size:4.0em;
+   margin-bottom:0px;
+ }
+ h2{
+   color:white;
+   font-size:2em;
+   margin-top:0px;
+   margin-bottom:0.25em;
+ }
+   

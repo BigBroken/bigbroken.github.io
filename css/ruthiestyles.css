@@ -25,7 +25,10 @@
 .image-column{
 
 }
-.resaerch ol{
+.research ol{
+  font-size:22px;
+}
+.research li{
   font-size:22px;
 }
 .research p {

@@ -1,6 +1,9 @@
 
 @charset "UTF-8";
 
+.icons .btn{
+  margin-bottom:10px;
+}
 .image-caption{
   width:90%;
   font-style:italic;

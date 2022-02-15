@@ -54,6 +54,17 @@
    background-position: center center;
    background-size: cover;
 }
+.top-section-community{
+  height:400px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/tealCover.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; */
+}
+
 .button-2 {
    display: inline-block;
    margin: 5px;

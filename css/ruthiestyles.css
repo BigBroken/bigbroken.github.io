@@ -38,11 +38,17 @@
   font-size: 22px;
 }
 .section-top{
-  padding-top:170px!important;
+  padding-top:30px!important;
 }
 .research.page-section {
   padding-top:2rem;
   padding-bottom:2rem;
+}
+.heading-top{
+padding-top:15px;
+}
+.heading-bottom{
+padding-bottom:30px;
 }
 .top-section{
    height:650px;

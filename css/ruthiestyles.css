@@ -55,15 +55,56 @@
    background-size: cover;
 }
 .top-section-community{
-  height:400px;
+  height:340px;
   text-align: center;
   color: #fff;
-  background-image: url('../assets/tealCover.jpg');
+  background-image: url('../assets/community_bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover; */
+  background-size: cover; 
 }
+.top-section-deglacial{
+  height:340px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/deglacial_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+}
+.top-section-meltwater{
+  height:340px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/meltwater_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+}
+.top-section-teaching{
+  height:340px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/teaching_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+}
+.top-section-antarctica{
+  height:340px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/pastwarmperiods_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+}
+
 
 .button-2 {
    display: inline-block;

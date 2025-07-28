@@ -24,7 +24,7 @@ function handleSubmit(event) {
 </head>
 <body>
 <h1>Pizza Quiz</h1>
-<form onsubmit="handleSubmit(event)">
+<<form onsubmit="handleQuizSubmit(even)">
   <label for="name">What is your name?</label>
   <input type="text" id="name" name="name" required>
 
@@ -121,11 +121,40 @@ function handleSubmit(event) {
     <label>How often do you eat pizza?</label>
     <label><input type="radio" name="frequency" value="weekly" required> Weekly</label>
     <label><input type="radio" name="frequency" value="monthly" required> Monthly</label>
-    <label><input type="radio" name="frequency" value="rarely" required> Rarely</label>
+  <label><input type="radio" name="frequency" value="rarely" required> Rarely</label>
     <label><input type="radio" name="frequency" value="never" required> Never</label>
   </div>
 
   <button type="submit" class="submit-btn">Submit Quiz</button>
-</form>
+</
+   
+  </form><script>
+    function handleQuizSubmit(event) {
+      event.preventDefault();
+      const form = event.target;
+      let correct = 0;
+      const answers = {
+        canada_topping: "anchovies",
+        neapolitan_cheese: "mozzarella_di_bufala",
+        classic_pepperoni: "false",
+        city_pizzerias: "buffalo",
+        texas_sauce: "bbq",
+        alsatian: "Flammekueche",
+        productivity_incentives: "pizza_compliments",
+        combinations_formula: "power_of_two",
+        quote_author: "einstein"
+      };
+      for (const key in answers) {
+        const selected = form.querySelector('input[name="' + key + '"]:checked');
+        if (selected && selected.value === answers[key]) {
+          correct++;
+        }
+      }
+  alert('Your pizza quiz responses has been deleted. You have earned ' + correct + ' pizza(s)');
+   
+form.reset();
+}
+    }
+    </</script>>
 </body>
 </html>

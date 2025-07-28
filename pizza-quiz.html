@@ -25,26 +25,16 @@ function handleSubmit(event) {
 <h1>Pizza Quiz</h1>
 <<form onsubmit="handleQuizSubmit(even)">
   <label for="name">What is your name?</label>
-  <input type="text" id="name" name="name" required>
+  <input type="text" id="name" name="name" >
 
-  <div class="question">
-    <label for="topping">What is your favorite pizza topping?</label>
-    <select name="topping" id="topping" required>
-      <option value="">Select a topping</option>
-      <option value="pepperoni">Pepperoni</option>
-      <option value="mushrooms">Mushrooms</option>
-      <option value="cheese">Extra Cheese</option>
-      <option value="vegetables">Vegetables</option>
-      <option value="other">Other</option>
-    </select>
-  </div>
-  
 <div class="question">
-  <label>What is a close second most popular pizza topping in Canada?</label>
+  <label>What is a close second most popular pizza topping in Canada according to AI?</label>
   <label><input type="radio" name="canada_topping" value="mushrooms"> Mushrooms</label>
   <label><input type="radio" name="canada_topping" value="bacon"> Bacon</label>
   <label><input type="radio" name="canada_topping" value="onions"> Onions</label>
   <label><input type="radio" name="canada_topping" value="anchovies"> Anchovies</label>
+  <label><input type="radio" name="canada_topping" value="sausage"> Sausage</label>
+  
 </div>
 
 <div class="question">
@@ -111,17 +101,13 @@ function handleSubmit(event) {
 
 
   <div class="question">
-    <label>Which crust do you prefer?</label>
-    <label><input type="radio" name="crust" value="thin" required> Thin Crust</label>
-    <label><input type="radio" name="crust" value="thick" required> Thick Crust</label>
-  </div>
-
-  <div class="question">
     <label>How often do you eat pizza?</label>
-    <label><input type="radio" name="frequency" value="weekly" required> Weekly</label>
-    <label><input type="radio" name="frequency" value="monthly" required> Monthly</label>
-  <label><input type="radio" name="frequency" value="rarely" required> Rarely</label>
-    <label><input type="radio" name="frequency" value="never" required> Never</label>
+    <label><input type="radio" name="frequency" value="never" > PIZZA TIME ALL THE TIME</label>
+    <label><input type="radio" name="frequency" value="weekly" > Weekly</label>
+    <label><input type="radio" name="frequency" value="monthly" > Monthly</label>
+  <label><input type="radio" name="frequency" value="rarely" > Rarely</label>
+    <label><input type="radio" name="frequency" value="never" > Never</label>
+    
   </div>
 
   <button type="submit" class="submit-btn">Submit Quiz</button>
